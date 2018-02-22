@@ -1,3 +1,6 @@
+require 'pry'
+
+
 class LocationsController < ApplicationController
   def index
     @locations = Location.all
