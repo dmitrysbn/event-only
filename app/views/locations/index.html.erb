@@ -6,6 +6,7 @@
 </p>
 
 <% @locations.each do |current_location| %>
+  <h3><%= current_location.name %></h3>
   <%= render 'single_location', location: current_location %>
   <%= render 'location_form', location: current_location %>
 <% end %>
